@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_symptom_check"
+            android:icon="@drawable/ic_checker1"
+            android:title="Disease prediction"
+            />
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/ic_insurance1"
+            android:title="Near By Insurance Company" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_hospital1"
+            android:title="Near By Hospital" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_welfarescheme"
+            android:title="Welfare Schemes" />
+        <item
+            android:id="@+id/nav_disease"
+            android:icon="@drawable/ic_diagnosis"
+            android:title="Diagnosis" />
+
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/ic_settings1"
+            android:title="Account Settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share1"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

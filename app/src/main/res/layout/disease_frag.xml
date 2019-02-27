@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Diabetics"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc1"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_1"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Heart Attack"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc2"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_2"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Cancer"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc3"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_3"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Alzeimer"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc4"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_4"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Leprosy"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc5"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_5"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Kidney failure"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc6"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_6"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Heart attack"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc7"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_7"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Dengue fever"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc8"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_8"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Asthma"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc9"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_9"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Albinism"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc10"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_10"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Anemia"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+            <TextView
+                android:id="@+id/txtDesc11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc1"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_11"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Brain tumor"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc12"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_12"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Cataract"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc13"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_13"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+        <india.selfdoc.adapter.accordion.AccordionView
+            android:id="@+id/txtHeading14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:heading="Thyroid"
+            app:isAnimated="true"
+            app:isExpanded="true"
+            app:isPartitioned="true">
+
+            <TextView
+                android:id="@+id/txtDesc14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc" />
+
+            <Button
+                android:id="@+id/btn_d_hos_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesc14"
+                android:text="Hospital" />
+
+            <Button
+                android:id="@+id/btn_d_spk_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_d_hos_14"
+                android:text="Speaker" />
+
+
+        </india.selfdoc.adapter.accordion.AccordionView>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

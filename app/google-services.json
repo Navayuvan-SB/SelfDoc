@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "756845541425",
+    "firebase_url": "https://selfdoc-16511.firebaseio.com",
+    "project_id": "selfdoc-16511",
+    "storage_bucket": "selfdoc-16511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756845541425:android:4936336158dff237",
+        "android_client_info": {
+          "package_name": "india.selfdoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756845541425-p74etu9pffeqvhoqhp2fnhb475gc3tgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "india.selfdoc",
+            "certificate_hash": "b93295074e1a6c4184ba5a065e30b3e417def275"
+          }
+        },
+        {
+          "client_id": "756845541425-672ckcfh08656jpmg53guafdpdc8cn0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOhx4oV63CBnfBnkI_vPCaypq_oos8tC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756845541425-672ckcfh08656jpmg53guafdpdc8cn0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
