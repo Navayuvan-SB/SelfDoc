@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
             if(frag instanceof DashboardFragment){
              //   super.onBackPressed();
             } else{
-                getSupportFragmentManager().beginTransaction().replace(R.id.main_frag, new DashboardFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_frag, new DiseaseFragment()).commit();
             }
         }
     }
